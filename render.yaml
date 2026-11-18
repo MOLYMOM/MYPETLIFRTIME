@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: hanpet
+    runtime: node
+    plan: free
+    buildCommand: echo "no build"
+    startCommand: node server.js
+    healthCheckPath: /ping
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: SITE_URL
+        sync: false
+      - key: GOOGLE_SITE_VERIFICATION
+        sync: false
+      - key: NAVER_SITE_VERIFICATION
+        sync: false
