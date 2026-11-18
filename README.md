@@ -8,5 +8,4 @@
 - 성장 단계별 사건과 선택지, 배속 조절
 - 한국어·English·日本語·中文·Français
 
-## 실행
-`node server.js` → http://localhost:3000 (배포 방법은 DEPLOY.md 참고)
+
